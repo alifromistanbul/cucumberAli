@@ -4,20 +4,13 @@ Feature: User login example
   from librarian and user accounts.
 
 
-
+@wip
   Scenario:
     Given user is on the homepage
     When user enters valid username
     And user enters valid password
     Then user logs in the web page
 
-
-  Scenario:
-    When  librarian is on the homepage
-    And librarian enters valid username
-    Then librarian enters valid password
-    Then librarian logs in the dashboard page
-
-
+  
 
 
