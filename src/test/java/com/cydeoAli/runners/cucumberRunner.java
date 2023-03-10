@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cydeoAli/stepDefinitions",
         dryRun = false,
-        tags = "@SmokeTest"
+        tags = "@wip"
 
 )
 public class cucumberRunner {
